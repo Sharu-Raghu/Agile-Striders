@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MyPassbook</string>
+
+    //SplashScreen
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="splash_screen_logo">Splash screen logo</string>
+    <string name="splash_screen_title">My Passbook</string>
+    <string name="Copyright">Agile Striders 2018 | all rights reserved </string>
+
+    //Login and Register
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotPass">FORGOT PASSWORD</string>
+    <string name="Name"> Name </string>
+    <string name="Username">Username</string>
+    <string name="Register"> REGISTER </string>
+    <string name="tvLogin">Already Registered? LOGIN</string>
+    <string name="tvRegisterHere">REGISTER HERE</string>
+
+    //Reset Password
+    <string name="tvReset">FORGOT PASSWORD</string>
+    <string name="btn_reset_password">RESET PASSWORD</string>
+    <string name="btn_back">Back to Login</string>
+    <string name="forgot_password_msg">We just need your registered Email id to send you the password reset instructions.</string>
+    <string name="lbl_forgot_password"> FORGOT PASSWORD?</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    //Tips to Success
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Student</string>
+    <string name="tab_text_2">Career</string>
+    <string name="tab_text_3">Studying</string>
+
+    <string name="SettingGoals"> 1. Imagine your ideal outcome.\n\n
+                                2. Approach college with the right attitude.\n\n
+                                3. Take charge of your education.\n\n
+                                4. Get the "whys" right.\n\n
+                                5. Focus on actually learning, not just on your grades.\n\n
+                                6. Trust the small steps.\n\n
+                                7. Dream bigger.\n\n
+                                8. Stay mindful of negative self-talk.\n\n
+                                9. Seek to master at least one skill better than anyone else you know.\n\n
+                                10.Plan on amplifying your strengths.\n\n</string>
+
+    <string name="CareerPreparation">
+        1. Participate in hands-on learning experiences.\n\n
+        2. Make a list of your skills and achievements, with specific examples.\n\n
+        3. Take advantage of your schools career services.\n\n
+        4. Practice showing eagerness and enthusiasm.\n\n
+        5. Learn all you can about the places you most want to work.\n\n
+        6. Purchase appropriate interview attire.\n\n
+        7. Cultivate a professional attitude.\n\n
+    </string>
+
+    <string name="StudyingTips">
+        1. Do the work.\n\n
+        2. Minimize useless distractions.\n\n
+        3. Find a few different quiet locations.\n\n
+        4. Study no more than about 90 minutes at a time.\n\n
+        5. Keep your body moving.\n\n
+        6. Organize your notes.\n\n
+        7. Stand up and explain it out loud.\n\n
+        8. Seek help right away.\n\n
+        9. Take advantage of your schools resources.\n\n
+        10. Create flashcards.\n\n
+    </string>
+
+    //Forum
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="bottom_home_text">Home</string>
+    <string name="bottom_notification_text">Notification</string>
+    <string name="bottom_ac_text">Account</string>
+
+    <string name="setup_name_hint">Your Name...</string>
+    <string name="setup_save_btn">Save Account Settings</string>
+    <string name="setup_name_hint_text">Your Name ...</string>
+    <string name="setup_btn_name_text">Save Account Settings</string>
+    <string name="post_desc_hint">Add Description ...</string>
+    <string name="new_post_btn_hint">Post Blog</string>
+</resources>

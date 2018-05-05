@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "219012699860",
+    "firebase_url": "https://mypassbook-e34c0.firebaseio.com",
+    "project_id": "mypassbook-e34c0",
+    "storage_bucket": "mypassbook-e34c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219012699860:android:2b3f6b4078f79e2b",
+        "android_client_info": {
+          "package_name": "com.example.sharanya.MyPassbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219012699860-rpej89nghhuee4o53fq5p9ocrppbd3e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIgRKrQauOFnhu0axe-Vt6AbItrtcj-2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.sharanya.MyPassbook.LoginActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/logon"
+                android:tint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/label_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="LOGIN"
+                android:textColor="@color/textColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                tools:ignore="RtlHardcoded"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_user_24dp"
+                android:drawablePadding="16dp"
+                android:drawableTint="@android:color/white"
+                android:ems="10"
+                android:hint="EMAIL"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:inputType="textEmailAddress"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_lock_outline_24dp"
+                android:drawablePadding="16dp"
+                android:drawableTint="@android:color/white"
+                android:ems="10"
+                android:hint="PASSWORD"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:inputType="textPassword"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/bLogin"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:background="@color/colorAqua"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvForgot"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="FORGOT PASSWORD"
+                android:textColor="@android:color/white" />
+
+        <!-- Link to Login Screen -->
+        <TextView
+            android:id="@+id/tvRegisterHere"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="@string/tvRegisterHere"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
